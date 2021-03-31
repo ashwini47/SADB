@@ -5,13 +5,10 @@
   "main": "dist/index.js",
   "scripts": {
     "prebuild": "tslint -c tslint.json -p tsconfig.json --fix",
-    
     "prestart": "npm run build",
-   
-     "start": "node .",
+    "start": "node .",
     "build": "tsc",
     "start:dev": "nodemon",
- 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,6 +23,7 @@
   },
   "homepage": "https://github.com/ashwini47/SADB#readme",
   "dependencies": {
+    "connect-livereload": "^0.6.1",
     "express": "^4.17.1"
   },
   "devDependencies": {
