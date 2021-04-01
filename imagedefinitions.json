@@ -1,6 +1,6 @@
 [
     {
-        "name": "sad-backend",
+        "name": "sad-frontend-container",
         "imageUri": "ashwini47lab/sad-backend"
     }
 ]
